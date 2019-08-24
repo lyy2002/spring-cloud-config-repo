@@ -48,3 +48,6 @@ hystrix:
 logging:
   level:
     org.springframework.cloud.openfeign: debug
+    
+
+env: 1
