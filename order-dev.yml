@@ -49,5 +49,11 @@ logging:
   level:
     org.springframework.cloud.openfeign: debug
     
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
 
 env: 2
