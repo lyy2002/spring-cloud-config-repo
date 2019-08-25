@@ -4,8 +4,8 @@ spring:
     name: product
   zipkin:
     base-url: http://www.lyy.com:9411
-    sender:
-      type: web
+   # sender:
+      #type: web
     enabled: true
   sleuth:
     sampler:
